@@ -10,3 +10,14 @@ To create scaffold for new entity
 ```
 rails generate scaffold post title:string body:text
 ```
+
+To apply migrations
+```
+rails db:migrate
+```
+
+To start server
+```
+rails server
+```
+Rails should be availiable at localhost:3000
