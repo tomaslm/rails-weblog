@@ -5,3 +5,8 @@ To create a new rails application
 ```
 rails new weblog
 ```
+
+To create scaffold for new entity
+```
+rails generate scaffold post title:string body:text
+```
